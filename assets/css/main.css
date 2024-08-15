@@ -287,6 +287,9 @@ select {
 .heading-color-black-with-hover:hover {
   color: #022a1f !important;
 }
+.tp-section-title.heading-color-black.service-font-size{
+  font-size: 20px;
+}
 
 /*--
     - Margin & Padding
@@ -1962,7 +1965,7 @@ select {
 }
 
 .tp-header-top-info-single-content {
-  font-size: 16px;
+  font-size: 14px;
   color: #ffffff;
   display: block;
 }
@@ -3839,18 +3842,19 @@ select {
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
 }
-.tp-about-img-two-badge h3 {
-  font-size: 36px;
-  color: #09150f;
+.tp-about-img-two-badge h3 svg {
+  font-size: 16px;
+  width: 60px;
+  color: #022a1f;
   line-height: 1;
-  font-family: "Roboto", sans-serif;
   margin-bottom: 30px;
   overflow: hidden;
   display: inline-block;
 }
 .tp-about-img-two-badge h5 {
   font-size: 22px;
-  color: #09150f;
+  color: #022a1f;
+  font-weight: 800 !important;
   line-height: 1.2;
   transform: rotate(90deg);
   margin-bottom: 0px;
@@ -3858,7 +3862,9 @@ select {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
-
+.about-sub-heading{
+  font-size: 20px;
+}
 .tp-about-text-three .tp-about-service-text-title {
   color: #102579;
 }
@@ -3949,11 +3955,15 @@ select {
   }
 }
 .tp-services-icon {
-  width: 75px;
+  
   margin-right: 25px;
   float: left;
   margin-top: 12px;
+  
 }
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-services-icon {
     float: inherit;
@@ -3962,7 +3972,7 @@ select {
   }
 }
 .tp-services-icon i {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1;
 }
 .tp-services-text-link {
@@ -4313,14 +4323,14 @@ select {
   height: 80px;
   width: 80px;
   text-align: center;
-  line-height: 102px;
+  line-height: 90px;
   background: #022a1f;
   border-radius: 30px 0px 30px 50px;
   padding-left: 6px;
 }
 .tp-service-three-img-icon i {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 30px;
 }
 .tp-service-three-text p {
   font-size: 16px;
@@ -4636,6 +4646,9 @@ select {
   background: #fed10c;
   width: 100%;
   z-index: 1;
+}
+.tp-choose-yellow-bg.tp-choose-yellow-bg-about{
+  top: -20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -6975,12 +6988,18 @@ select {
   line-height: 1.6;
   display: inline-flex;
 }
+/* .tp-footer-info h6, i{
+  transition: color 0.3s ease, transform 0.3s ease;
+} */
+
+
 .tp-footer-info h6 i {
   font-size: 16px;
   color: #ffffff;
   min-width: 25px;
   transform: translateY(4px);
 }
+
 .tp-footer-info-social a {
   height: 40px;
   width: 40px;
