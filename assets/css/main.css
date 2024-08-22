@@ -1682,6 +1682,7 @@ select {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  border-radius: 5px;
 }
 .theme-btn:hover {
   background: #fed10c;
